@@ -1,2 +1,2 @@
-# onlinestore-deploy
-RS School (stage 2) task
+# aniamarkh-JSFE2022Q1
+Private repository for @aniamarkh

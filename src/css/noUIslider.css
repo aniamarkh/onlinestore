@@ -1,0 +1,75 @@
+.noUi-target {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1rem;
+  margin-bottom: 2.5rem;
+  width: 90%;
+  background: #686868;
+}
+
+.noUi-horizontal {
+  height: 0.7rem;
+}
+
+.noUi-base,
+.noUi-connects {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.noUi-connects {
+  overflow: hidden;
+  z-index: 0;
+}
+
+.noUi-connect {
+  height: 110%;
+  width: 100%;
+  transform-style: preserve-3d;
+  transform-origin: 0 0;
+  transform-style: flat;
+  background-color: #8abb88;
+}
+
+.noUi-origin {
+  will-change: transform;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  height: 0;
+  width: 100%;
+}
+
+.noUi-handle {
+  border-radius: 1rem;
+  background: #fff;
+  cursor: default;
+  background-color: #beddbd;
+  backface-visibility: hidden;
+  position: absolute;
+  width: 1.4rem;
+  height: 1.4rem;
+  right: -0.6rem;
+  top: -0.4rem;
+  cursor: pointer;
+}
+
+.noUi-touch-area {
+  height: 110%;
+  width: 100%;
+}
+
+.noUi-draggable {
+  cursor: ew-resize;
+}
+
+.noUi-tooltip {
+  text-align: center;
+}
+
+.slider__values {
+  display: none;
+}

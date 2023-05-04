@@ -1,0 +1,60 @@
+.items__cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem 1.8rem;
+  justify-content: center;
+}
+
+.items__card {
+  background-color: #ffffff;
+  height: 30rem;
+  width: 14.1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+
+}
+
+.items__card img {
+  width: 14.1rem;
+  height: 19rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.items__card p {
+  font-size: 0.8rem;
+}
+
+.items__card p:before {
+  display: inline-block;
+  content: "\2022";
+  color: #222222;
+  width: 0.9rem;
+  margin-left: -14px;
+}
+
+.items__card button {
+  width: 14.1rem;
+  margin-top: 0.2rem;
+  background-color: #e2e2e2;
+  border-radius: 0 0 1rem 1rem;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+  cursor: pointer;
+}
+
+.items__card:hover button {
+  background-color: #c9c9c9;
+  transition: all 0.5s;
+}
+
+.card--fav button{
+  background-color: #8abb88;
+}
+
+.card--fav:hover button {
+  background-color: #beddbd;
+  transition: all 0.5s;
+}
